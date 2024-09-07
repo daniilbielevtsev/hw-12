@@ -52,6 +52,11 @@ body {
     color: #fff;
     margin-bottom: 5px;
   }
+  .icon {
+    width: 10px;
+    height: 10px;
+    fill: #ad0000;
+  }
 }
 @media (min-width: 481px) {
   .header {
