@@ -1,0 +1,147 @@
+body {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1600px;
+}
+@media (min-width: 320px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+  }
+  .nav {
+    background-color: brown;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+  }
+  .logo {
+    color: brown;
+    width: 5%;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .item {
+    width: 100%;
+    margin-bottom: 5px;
+    background-color: brown;
+    color: #fff;
+    text-align: center;
+  }
+  .main {
+    background-color: #a52a2a;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  .aside {
+    background-color: brown;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 481px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+  }
+  .logo {
+    color: brown;
+    width: 5%;
+    text-align: center;
+  }
+  .logo-container {
+    display: none;
+  }
+  .nav {
+    background-color: brown;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+  }
+  .cotainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .main {
+    background-color: brown;
+    color: #fff;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 5px;
+  }
+  .aside {
+    background-color: brown;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 5px;
+  }
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .item {
+    flex-basis: calc((100% - 30px) / 2);
+    background-color: brown;
+    color: #fff;
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .nav {
+    background-color: brown;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+  }
+  .cotainer {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    gap: 5px;
+  }
+  .logo-container {
+    display: none;
+  }
+  .main {
+    background-color: brown;
+    color: #fff;
+    text-align: center;
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .aside {
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .item {
+    flex-basis: calc((100% - 30px) / 3);
+    background-color: brown;
+    color: #fff;
+    text-align: center;
+  }
+}
