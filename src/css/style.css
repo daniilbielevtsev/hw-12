@@ -21,9 +21,8 @@ body {
   }
   .logo {
     color: brown;
-    width: 5%;
-    text-align: center;
     width: 100%;
+    text-align: center;
     display: flex;
     justify-content: space-between;
   }
@@ -60,42 +59,27 @@ body {
 }
 @media (min-width: 481px) {
   .header {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     flex-direction: row;
   }
   .logo {
-    color: brown;
     width: 5%;
-    text-align: center;
+    justify-content: center;
   }
   .logo-container {
     display: none;
-  }
-  .nav {
-    background-color: brown;
-    width: 100%;
-    color: #fff;
-    text-align: center;
   }
   .cotainer {
     display: flex;
     flex-direction: column;
   }
   .main {
-    background-color: brown;
-    color: #fff;
-    text-align: center;
     padding-top: 60px;
     padding-bottom: 60px;
-    margin-bottom: 5px;
   }
   .aside {
-    background-color: brown;
-    color: #fff;
-    text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 5px;
@@ -108,18 +92,9 @@ body {
   }
   .item {
     flex-basis: calc((100% - 30px) / 2);
-    background-color: brown;
-    color: #fff;
-    text-align: center;
   }
 }
 @media (min-width: 1200px) {
-  .nav {
-    background-color: brown;
-    width: 100%;
-    color: #fff;
-    text-align: center;
-  }
   .cotainer {
     justify-content: space-between;
     align-items: center;
@@ -129,6 +104,9 @@ body {
   }
   .logo-container {
     display: none;
+  }
+  .nav {
+    width: 100%;
   }
   .main {
     background-color: brown;
@@ -145,8 +123,5 @@ body {
   }
   .item {
     flex-basis: calc((100% - 30px) / 3);
-    background-color: brown;
-    color: #fff;
-    text-align: center;
   }
 }
